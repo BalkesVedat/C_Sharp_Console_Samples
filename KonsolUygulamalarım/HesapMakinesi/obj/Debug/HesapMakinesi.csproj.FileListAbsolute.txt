@@ -1,0 +1,8 @@
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\HesapMakinesi\bin\Debug\HesapMakinesi.exe.config
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\HesapMakinesi\bin\Debug\HesapMakinesi.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\HesapMakinesi\bin\Debug\HesapMakinesi.pdb
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\HesapMakinesi\obj\Debug\HesapMakinesi.csproj.AssemblyReference.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\HesapMakinesi\obj\Debug\HesapMakinesi.csproj.CoreCompileInputs.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\HesapMakinesi\obj\Debug\HesapMakinesi.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\HesapMakinesi\obj\Debug\HesapMakinesi.pdb
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\HesapMakinesi\obj\Debug\HesapMakinesi.exe.config

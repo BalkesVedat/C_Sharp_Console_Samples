@@ -1,0 +1,8 @@
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Donguler\bin\Debug\Donguler.exe.config
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Donguler\bin\Debug\Donguler.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Donguler\bin\Debug\Donguler.pdb
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Donguler\obj\Debug\Donguler.csproj.AssemblyReference.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Donguler\obj\Debug\Donguler.csproj.CoreCompileInputs.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Donguler\obj\Debug\Donguler.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Donguler\obj\Debug\Donguler.pdb
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Donguler\obj\Debug\Donguler.exe.config

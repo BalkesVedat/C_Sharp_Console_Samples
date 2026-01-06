@@ -1,0 +1,8 @@
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Algoritmalar\obj\Debug\Algoritmalar.csproj.AssemblyReference.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Algoritmalar\obj\Debug\Algoritmalar.csproj.CoreCompileInputs.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Algoritmalar\bin\Debug\Algoritmalar.exe.config
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Algoritmalar\bin\Debug\Algoritmalar.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Algoritmalar\bin\Debug\Algoritmalar.pdb
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Algoritmalar\obj\Debug\Algoritmalar.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Algoritmalar\obj\Debug\Algoritmalar.pdb
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\Algoritmalar\obj\Debug\Algoritmalar.exe.config
