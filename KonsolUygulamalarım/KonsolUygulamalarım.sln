@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donguler", "Donguler\Dongul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatorler", "Operatorler\Operatorler.csproj", "{769ECE62-9074-4E9A-8DCA-E9E7EA387C5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolleksiyonlar", "Kolleksiyonlar\Kolleksiyonlar.csproj", "{03A87DDA-0798-4D15-90E6-C896DA0779D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{769ECE62-9074-4E9A-8DCA-E9E7EA387C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{769ECE62-9074-4E9A-8DCA-E9E7EA387C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{769ECE62-9074-4E9A-8DCA-E9E7EA387C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A87DDA-0798-4D15-90E6-C896DA0779D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A87DDA-0798-4D15-90E6-C896DA0779D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A87DDA-0798-4D15-90E6-C896DA0779D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A87DDA-0798-4D15-90E6-C896DA0779D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
