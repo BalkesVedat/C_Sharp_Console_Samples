@@ -167,15 +167,90 @@ namespace Kolleksiyonlar
             else
                 Console.WriteLine("Aranan gün bulunamadı.");
 
+            //GENERICS: Jenerik koleksiyonlar
 
-
-            Console.WriteLine("- Dictionary -----------");
+//Dictionary : Sözlük Kooleksiyon tipi : İçerisine vir key ve bir value şeklinde çiftler halinde veriler girilen kolleksiyon tipidir. Dictionary<T key, T value> şeklinde Generik olarak tanımlanabilir. Key ve value için tip belirtilir ve girişler de belirttiğimiz tiplerde yapılabilir. Tip güvenlidir.
 
             Dictionary<string,string> sozluk = new Dictionary<string,string>();
 
             sozluk.Add("apple", "elma");
+            Console.WriteLine("- Dictionary -----------");
+
             sozluk.Add("key", "anahtar");
             sozluk.Add("book", "kitap");
+            sozluk.Add("notebook", "defter");
+            sozluk.Add("tissue", "mendil");
+            sozluk.Add("paper", "kağıt");
+            sozluk.Add("school", "okul");
+
+           // string arananKelime;
+
+            Console.Write("İngilizce kelime giriniz:");
+            string arananKelime = Console.ReadLine();
+
+            if (sozluk.ContainsKey(arananKelime))
+            {
+                Console.WriteLine("Aranan {0} kelimesinin Türkçe karşılığı : {1}",arananKelime, sozluk[arananKelime]);
+                //Alternatif:
+                Console.WriteLine($"Aranan {arananKelime} kelimesinin Türkçe karşılığı : {sozluk[arananKelime]}");
+            }
+            else
+            {
+                Console.WriteLine("Sözlükte böyle bir ingilizce kelime bulunamadı.");
+            }
+
+            Console.WriteLine("------------------------------");
+
+            Dictionary<int,string> personeller = new Dictionary<int,string>();
+
+            personeller.Add(123, "Mahmut");
+            personeller.Add(222, "Melahat");
+
+            foreach (var personel in personeller)
+            {
+                Console.Write($"Sicil No:\"{personel.Key}\"\t-\tAd:\"{personel.Value}\" \r\n");            
+            }
+
+            //List :
+
+            Console.WriteLine("------- List ------------")  ;
+
+            List<string> markalar = new List<string>();
+
+            string ozelMarka = "Koeningseg";
+
+            markalar.Add("BMW");
+            markalar.Add(123.ToString());
+            markalar.Add(ozelMarka);
+            markalar.AddRange(sozluk.Keys.ToList());
+
+            for (int i = 0; i < markalar.Count; i++)
+            {
+                Console.WriteLine(markalar[i]);
+            }
+
+            ////foreach (string marka in markalar) {
+            ////    Console.WriteLine(marka);
+            ////}
+
+            // Listeden bir bilgiyi aramak için Where sorgu metodu kullanılabilir. Where içerisinde Lambda "=>" işareti ile sorgulama yapılabilir. 
+         List<string> liste = markalar.Where(x => x.Contains("E60")).ToList();
+
+            // .Contains istediğimiz bir ifadeyi içeren tüm girdileri döndürür. 
+            // .Equals istediğimiz değere eşit olan girdileri döndürür.
+            // sondaki .ToList() aradığımız kritere eşleşen tüm girdileri <T> generic tipinde liste olarak döndürür.
+
+       string arananMarka = markalar.Where(x => x.Contains("B")).FirstOrDefault();
+
+            // sondaki .FirstOrDefault() metodu aradığımız kriter ile eşleşen ilk kaydı döndürür. Aradığımız kritere uyan kayıt yok ise <T> nin default değerini döndürür. 
+
+            markalar.Remove("123"); // Belirrtiğimiz değeri listeden siler
+            markalar.RemoveAt(markalar.Count-1); // belirttiğimiz index teki elemanı siler
+
+            markalar.Sort(); // Listeyi sıralar
+            markalar.Reverse(); // Listeyi tersine çevirir.
+
+
 
             Console.ReadKey();
         }
