@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace DegiskenTipleri
 {
+    struct Urun
+    {
+        public int urunKodu;
+        public string urunAd;
+        public double fiyat;
+    }
+
+
     internal class Program
     {
         static void Main(string[] args)
@@ -68,6 +76,32 @@ namespace DegiskenTipleri
                 devamEdilsinMi = false;
             }
 
+            int s1 = int.MaxValue;
+
+
+
+            double dblFiyat = 0;
+
+
+            Urun araba1 = new Urun();
+
+            araba1.urunKodu = 13213;
+            araba1.urunAd = "orıjoojert oje rojtoej";
+            araba1.fiyat = 1222;
+
+            Urun araba2 = new Urun();
+
+            araba2.urunKodu = 11111;
+            araba2.urunAd = "merkebes";
+            araba2.fiyat = 5000;
+
+            araba1 = araba2;
+
+            araba1.fiyat = 2000;
+
+            Console.WriteLine("araba2 fiyatı :" + araba2.fiyat);
+            Console.WriteLine("araba2 fiyatı :{0}", araba2.fiyat);
+            Console.WriteLine($"araba2 fiyatı :{araba2.fiyat}");
 
 
 

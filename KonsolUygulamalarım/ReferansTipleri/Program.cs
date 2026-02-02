@@ -104,9 +104,88 @@ namespace ReferansTipleri
             //}
         }
 
+        public double _vizeNotu { get; set; }
+
+        public double _finalNotu { get; set; }
+
+        public int Status { get; set; }
+
+        public double NotGoster() 
+        {
+            diplomaNotu = _vizeNotu * 0.4 + _finalNotu * 0.6;
+            return _vizeNotu * 0.4 + _finalNotu * 0.6;
+        } 
 
 
 
+    }
+
+    class Urun
+    {
+        private int urunId = 0; // alan - field
+
+        public int UrunID { get; set; }
+        public string Marka { get; set; } // özellik - property
+
+        private double fiyat;
+
+        public double Fiyat {
+            get { return fiyat; }
+            set {
+                if (value < 0)
+                {
+                    fiyat = value * (-1);
+                }
+                else
+                {
+                    fiyat = value;
+                }
+            }    
+        }
+
+        public string Bilgiver() {
+            return "Urun ID:" + UrunID + " Marka:" + Marka + " Fiyatı:" + Fiyat;
+        }
+
+       
+
+
+    }
+
+    enum Renkler
+    { 
+        Siyah=1,
+        Beyaz,
+        Kırmızı,
+        Mavi,
+        Yeşil   
+    }
+
+    enum ogrStatus
+    { 
+        Aktif=1,
+        Kayıt_Dondurdu=2,
+        Disiplinde=3,
+        Mezun=999
+    }
+
+    class Kitap
+    {
+        public int KitapID { get; set; }
+        public string KitapAd { get; set; }
+        public string Yazar { get; set; }
+        public int SayfaSayisi { get; set; }
+        public string YayinEvi { get; set; }
+        public KitapTuru Tur { get; set; }
+    }
+
+    enum KitapTuru
+    { 
+        Roman,
+        Macera,
+        Polisiye,
+        Edebiyat,
+        BilimKurgu
     }
 
     internal class Program
@@ -196,9 +275,57 @@ namespace ReferansTipleri
             Ogrenci ogr1 = new Ogrenci();
 
             ogr1._adSoyad = "ahmet";
-           // ogr1._diplomaNotu = 75;
+            //ogr1._diplomaNotu = 75;
 
-            Console.WriteLine(ogr1._diplomaNotu);
+            ogr1._vizeNotu = 58;
+            ogr1._finalNotu = 85;
+            ogr1.Status = (int)ogrStatus.Aktif;
+
+            Console.WriteLine(ogr1.NotGoster());
+            Console.WriteLine("ad:{0} vn:{1} fn:{2} ort:{3}",ogr1._adSoyad,ogr1._vizeNotu,ogr1._finalNotu,ogr1._diplomaNotu);
+
+ if (ogr1._diplomaNotu >= 70 && ogr1.Status == (int)ogrStatus.Aktif)
+                Console.Write("  Öğrenci Mezun Olabilir.");
+ else
+                Console.Write("  Öğrenci Mezun Olmak İçin Uygun Değildir.");
+
+
+
+            //a == true ve (&&) b == true  =>  true
+            //a == false ve (&&) b == true =>  false
+            //a == true ve (&&) b == false =>  false
+            //a == false ve (&&) b == false =>  false
+
+
+            //a == true yada (||) b == true  =>  true    
+            //a == false yada(||) b == true =>  true
+            //a == true yada(||) b == false =>  true
+            //a == false yada(||) b == false =>  false
+
+
+
+
+
+
+
+
+            Console.WriteLine("--------------------------");
+
+            Urun forma = new Urun();
+
+            forma.Marka = "adidas";
+            forma.Fiyat = -4250;
+            forma.UrunID = 5;
+
+            Console.WriteLine(forma.Bilgiver());
+
+
+            string renk = "Kırmızı";
+
+           // renk = Renkler.Kırmızı;
+
+            int renkNo = (int)Renkler.Kırmızı;
+
 
 
         }
