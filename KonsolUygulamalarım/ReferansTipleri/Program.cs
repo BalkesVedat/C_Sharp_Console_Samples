@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace ReferansTipleri
 {
@@ -110,11 +111,11 @@ namespace ReferansTipleri
 
         public int Status { get; set; }
 
-        public double NotGoster() 
+        public double NotGoster()
         {
             diplomaNotu = _vizeNotu * 0.4 + _finalNotu * 0.6;
             return _vizeNotu * 0.4 + _finalNotu * 0.6;
-        } 
+        }
 
 
 
@@ -129,9 +130,11 @@ namespace ReferansTipleri
 
         private double fiyat;
 
-        public double Fiyat {
+        public double Fiyat
+        {
             get { return fiyat; }
-            set {
+            set
+            {
                 if (value < 0)
                 {
                     fiyat = value * (-1);
@@ -140,33 +143,30 @@ namespace ReferansTipleri
                 {
                     fiyat = value;
                 }
-            }    
+            }
         }
 
-        public string Bilgiver() {
+        public string Bilgiver()
+        {
             return "Urun ID:" + UrunID + " Marka:" + Marka + " Fiyatı:" + Fiyat;
         }
-
-       
-
-
     }
 
     enum Renkler
-    { 
-        Siyah=1,
+    {
+        Siyah = 1,
         Beyaz,
         Kırmızı,
         Mavi,
-        Yeşil   
+        Yeşil
     }
 
     enum ogrStatus
-    { 
-        Aktif=1,
-        Kayıt_Dondurdu=2,
-        Disiplinde=3,
-        Mezun=999
+    {
+        Aktif = 1,
+        Kayıt_Dondurdu = 2,
+        Disiplinde = 3,
+        Mezun = 999
     }
 
     class Kitap
@@ -180,13 +180,60 @@ namespace ReferansTipleri
     }
 
     enum KitapTuru
-    { 
+    {
         Roman,
         Macera,
         Polisiye,
         Edebiyat,
         BilimKurgu
     }
+
+    interface ICanli
+    {
+        int ID { get; set; }
+        string Name { get; set; }
+        string Tur { get; set; }
+        string Beslen();
+        string Ure();
+        string Dead();
+    }
+
+    interface IUcabilir
+    {
+        string Uc();
+        //string Uc(int irtifa);
+        //string Uc(int yukseklik, double surat);
+        //string Uc(int irtifa, int surat);
+    }
+
+    interface IYuzebilir
+    {
+        string Yuz();
+    }
+
+    class Canli : ICanli
+    {
+        public int ID { get ; set; }
+        public string Name { get ; set ; }
+        public string Tur { get ; set; }
+
+        public string Beslen()
+        {
+            return "Canlı Beslendi.";
+        }
+
+        public string Dead()
+        {
+            return "Canlı Öldü";
+        }
+
+        public string Ure()
+        {
+            return "Canlı Üredi.";
+        }
+
+    }
+
 
     internal class Program
     {
@@ -282,11 +329,11 @@ namespace ReferansTipleri
             ogr1.Status = (int)ogrStatus.Aktif;
 
             Console.WriteLine(ogr1.NotGoster());
-            Console.WriteLine("ad:{0} vn:{1} fn:{2} ort:{3}",ogr1._adSoyad,ogr1._vizeNotu,ogr1._finalNotu,ogr1._diplomaNotu);
+            Console.WriteLine("ad:{0} vn:{1} fn:{2} ort:{3}", ogr1._adSoyad, ogr1._vizeNotu, ogr1._finalNotu, ogr1._diplomaNotu);
 
- if (ogr1._diplomaNotu >= 70 && ogr1.Status == (int)ogrStatus.Aktif)
+            if (ogr1._diplomaNotu >= 70 && ogr1.Status == (int)ogrStatus.Aktif)
                 Console.Write("  Öğrenci Mezun Olabilir.");
- else
+            else
                 Console.Write("  Öğrenci Mezun Olmak İçin Uygun Değildir.");
 
 
@@ -322,11 +369,11 @@ namespace ReferansTipleri
 
             string renk = "Kırmızı";
 
-           // renk = Renkler.Kırmızı;
+            // renk = Renkler.Kırmızı;
 
             int renkNo = (int)Renkler.Kırmızı;
 
-
+         
 
         }
     }
