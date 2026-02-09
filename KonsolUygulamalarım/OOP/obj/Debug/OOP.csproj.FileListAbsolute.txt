@@ -1,0 +1,8 @@
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\OOP\bin\Debug\OOP.exe.config
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\OOP\bin\Debug\OOP.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\OOP\bin\Debug\OOP.pdb
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\OOP\obj\Debug\OOP.csproj.AssemblyReference.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\OOP\obj\Debug\OOP.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\OOP\obj\Debug\OOP.pdb
+C:\Users\ARIBILGI\Desktop\ÖĞRETMEN YEDEK\VEDAT HOCA\salı--perşembe\KODLAR\KONSOL\KonsolUygulamalarım\OOP\obj\Debug\OOP.exe.config

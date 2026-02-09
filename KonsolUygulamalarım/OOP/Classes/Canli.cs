@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace OOP.Classes
 {
     internal class Canli : ICanli
-    {
-        public string Name { get ; set ; }
+    {       
         public Cinsiyet Tur { get ; set; }
+        public string Name { get; set ; }
 
         public string Beslen()
         {

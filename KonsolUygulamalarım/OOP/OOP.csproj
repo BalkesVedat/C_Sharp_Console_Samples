@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Bitki.cs" />
     <Compile Include="Classes\Canli.cs" />
+    <Compile Include="Classes\Hayvan.cs" />
     <Compile Include="Enums\Cinsiyet.cs" />
     <Compile Include="Interfaces\ICanli.cs" />
     <Compile Include="Interfaces\IUcabilir.cs" />
