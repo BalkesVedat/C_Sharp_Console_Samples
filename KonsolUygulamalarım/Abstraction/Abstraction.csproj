@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{48761A9B-9263-42BD-A294-C819E0C72AB9}</ProjectGuid>
+    <ProjectGuid>{77D8CC3F-0028-4471-8B43-ED159995672B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOP</RootNamespace>
-    <AssemblyName>OOP</AssemblyName>
+    <RootNamespace>Abstraction</RootNamespace>
+    <AssemblyName>Abstraction</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Bitki.cs" />
-    <Compile Include="Classes\Bocekler.cs" />
-    <Compile Include="Classes\Canli.cs" />
-    <Compile Include="Classes\Devekusu.cs" />
-    <Compile Include="Classes\Hayvan.cs" />
-    <Compile Include="Classes\Kuslar.cs" />
-    <Compile Include="Classes\Memeliler.cs" />
-    <Compile Include="Classes\Ordek.cs" />
-    <Compile Include="Classes\Penguen.cs" />
-    <Compile Include="Classes\Surungen.cs" />
-    <Compile Include="Enums\Cinsiyet.cs" />
-    <Compile Include="Interfaces\ICanli.cs" />
-    <Compile Include="Interfaces\IUcabilir.cs" />
-    <Compile Include="Interfaces\IYuzebilir.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

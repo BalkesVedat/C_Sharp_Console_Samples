@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOP.Classes
 {
-    internal class Bitki : Canli
+    internal class Kuslar:Hayvan
     {
-        public new string Beslen()
-        {
-            return "Bitki Beslendi";
-        }
+        public double KanatGenisligi { get; set; }
+
 
     }
 }

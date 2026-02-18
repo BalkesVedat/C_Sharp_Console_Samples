@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOP.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace OOP.Classes
 {
-    internal class Bitki : Canli
+    internal class Penguen : Kuslar, IYuzebilir
     {
-        public new string Beslen()
+        public string Yuz()
         {
-            return "Bitki Beslendi";
+            return "Penguen Yüzdü";
         }
-
     }
 }

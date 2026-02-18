@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOP.Classes
 {
-    internal class Bitki : Canli
+    internal class Devekusu:Kuslar
     {
         public new string Beslen()
         {
-            return "Bitki Beslendi";
+            return "Devekusu Beslendi";
         }
 
     }

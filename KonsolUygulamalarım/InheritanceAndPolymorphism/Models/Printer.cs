@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP.Classes
+namespace InheritanceAndPolymorphism.Models
 {
-    internal class Bitki : Canli
+    internal class Printer
     {
-        public new string Beslen()
+
+        public static void Print(Document doc)
         {
-            return "Bitki Beslendi";
+            doc.Print();
         }
 
     }

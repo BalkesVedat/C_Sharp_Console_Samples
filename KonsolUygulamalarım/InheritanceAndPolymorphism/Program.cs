@@ -1,0 +1,51 @@
+﻿using InheritanceAndPolymorphism.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace InheritanceAndPolymorphism
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Document d1;
+
+            d1 = new Document();
+
+            d1.FileName = "Test.Txt";
+            d1.FilePath = "c:\\users\\werwe\\";
+          //  d1.CreateDate = DateTime.Now;
+            d1.FileSize = 100000;
+
+            Document d2 = new Document("abc.pdf", "c:\\users\\fdfs\\ttt.pdf",12500);
+
+            PDFDocument pdf1 = new PDFDocument();
+
+            PDFDocument pdf2 = new PDFDocument("dfsdf.pdf", "c:\\users\\sdfsd\\", 35000);
+
+            WordDocument word1 = new WordDocument();
+            word1.FileName = "engagement.docx";
+
+            d1.Print();
+            d2.Print();
+            pdf1.Print();
+            pdf2.Print();
+            word1.Print();
+
+            Console.WriteLine("--------------------");
+
+
+            Printer.Print(d1);
+            Printer.Print(d2);
+            Printer.Print(pdf1);
+            Printer.Print(pdf2);
+            Printer.Print(word1);
+
+
+
+        }
+    }
+}

@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP.Classes
 {
-    internal class Bitki : Canli
+    internal class Memeliler:Hayvan
     {
-        public new string Beslen()
-        {
-            return "Bitki Beslendi";
-        }
-
     }
 }
